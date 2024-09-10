@@ -1,0 +1,22 @@
+/* Set the height of the slider images */
+.slider-img {
+    height: 465px;
+    object-fit: cover;
+}
+
+/* Override the default Bootstrap Carousel control colors and icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50px;  /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+}
+
+.carousel-control-prev-icon {
+  background-image: url('../images/arrow-left.svg'); /* Replace with your custom SVG path */
+}
+
+.carousel-control-next-icon {
+  background-image: url('../images/arrow-right.svg'); /* Replace with your custom SVG path */
+}

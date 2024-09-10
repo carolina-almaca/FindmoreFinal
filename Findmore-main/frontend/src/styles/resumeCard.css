@@ -1,0 +1,25 @@
+.resume-card-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: #EDEEF6;
+    min-width: 280px;
+    border-radius: 20px;
+    gap: 15px;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+.resume-card-wrapper img {
+    width: 65px;
+    height: 60px;
+}
+
+.resume-card-wrapper h1 {
+    color: #1E2544;
+    font-weight: bold;
+}
+
+.resume-card-wrapper h2 {
+    color: #1E2544;
+    font-size: 14px;
+}

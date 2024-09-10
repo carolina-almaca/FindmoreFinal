@@ -1,0 +1,57 @@
+.products-carousel-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.products-carousel-container {
+    overflow: hidden;
+    width: calc((320px + 10px) * 3); /* Width of 3 cards including margin */
+    margin: auto;
+}
+
+.products-carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.products-carousel-card {
+    margin: 0 5px; /* Equal margin on both sides */
+    padding: 20px;
+    box-sizing: border-box;
+    min-width: 320px;
+    max-width: 320px;
+    max-height: 445px;
+}
+
+.products-carousel-btn {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1; /* Ensure buttons are on top of the carousel cards */
+}
+
+.products-carousel-btn img {
+    width: 20px;
+    height: 30px;
+}
+
+.products-prev-btn {
+    margin-right: 10px;
+}
+
+.products-next-btn {
+    margin-left: 10px;
+}
+
+.btn-versao {
+    width: fit-content;
+    text-decoration: underline;
+    background-color: transparent;
+    border: none;
+    opacity: .5;
+}

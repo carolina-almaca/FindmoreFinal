@@ -1,0 +1,108 @@
+.modal-detalhes-compra-produto .modal-dialog {
+    min-width: 950px;
+}
+
+.modal-detalhes-compra-produto .modal-content {
+    border-radius: 20px;
+    background-color: white;
+}
+
+.modal-detalhes-compra-produto-header {
+    color: #1E2544;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.modal-detalhes-compra-produtos-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #EDEEF6;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.modal-detalhes-compra-produtos-content-header {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #C9CEE5;
+}
+
+.modal-detalhes-compra-produtos-content-header h1 {
+    font-size: 18px;
+    color: #1E2544;
+    font-weight: bold;
+}
+
+.modal-detalhes-compra-produtos-content-header h2 {
+    font-size: 14px;
+    color: #939DCC;
+    font-weight: 500;
+}
+
+.modal-detalhes-compra-produtos-content-section {
+    display: flex;
+    gap: 40px;
+}
+
+.modal-detalhes-compra-produtos-content-section-user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.modal-detalhes-compra-produtos-content-section-user h1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.modal-detalhes-compra-produtos-content-section-user h2 {
+    font-size: 14px;
+    color: #939DCC;
+    margin: 0;
+}
+
+.modal-detalhes-compra-produtos-content-section-detalhes {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #C9CEE5;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.modal-detalhes-compra-produtos-content-section-detalhes span {
+    color: #1E2544;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.modal-detalhes-compra-produtos-content-section-detalhes h1 {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.modal-detalhes-compra-produtos-content-section-detalhes h2 {
+    font-size: 16px;
+    color: #939DCC;
+    margin: 0;
+}
+
+.modal-detalhes-compra-produtos-content-section-detalhes-avaliacao {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.modal-detalhes-compra-produtos-content-section-detalhes-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.modal-detalhes-compra-produtos-content-title {
+    font-size: 22px;
+}

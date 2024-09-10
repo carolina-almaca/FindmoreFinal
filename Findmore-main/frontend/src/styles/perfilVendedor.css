@@ -1,0 +1,47 @@
+.perfil-vendedor-header {
+    background-color: #E7F6FB;
+    border-radius: 24px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.perfil-vendedor-header > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.perfil-vendedor-header > div > span:nth-of-type(1) {
+    color: #333333;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.perfil-vendedor-header-editar {
+    background-color: #713290;
+    padding: 14px;
+    border-radius: 99px;
+    border: none;
+}
+
+.perfil-vendedor-header-editar img {
+    width: 22px;
+}
+
+.perfil-vendedor-header-actions {
+    display: flex;
+    flex-direction: row !important;
+    gap: 5px;
+}
+
+.perfil-vendedor-header-ativar-btn {
+    border: none;
+    background-color: transparent;
+    background-color: #D4C1DD;
+    padding: 14px 22px;
+    border-radius: 24px;
+    color: #333333;
+    font-weight: 700;
+}

@@ -1,0 +1,53 @@
+.modal-detalhes-pacote .modal-dialog {
+    max-width: 850px;
+}
+
+.modal-detalhes-pacote .modal-content {
+    border-radius: 20px;
+    background-color: white;
+}
+
+.modal-detalhes-pacote-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #C9CEE5;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.modal-detalhes-pacote-content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-detalhes-pacote-content h1 {
+    color: #1E2544;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #939DCC;
+}
+
+.modal-detalhes-pacote-content h2 {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    color: #1E2544;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.modal-detalhes-pacote-content span {
+    color: #1E2544;
+    font-size: 14px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.modal-detalhes-pacote-content li {
+    font-size: 14px;
+}

@@ -1,0 +1,76 @@
+.comprador-pacote-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F8F8;
+    border-radius: 20px;
+    padding: 20px 16px 20px 16px;
+}
+
+.comprador-pacote-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comprador-pacote-header h1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1E2544;
+    margin: 0 !important;
+}
+
+.comprador-pacote-header .btn-secondary {
+    border-radius: 20px !important;
+    padding: 8px 40px !important;
+}
+
+.comprador-pacotes-produtos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #FFEBF8;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 16px 24px 16px 24px;
+}
+
+.comprador-pacotes-produtos-produto {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.comprador-pacotes-produtos-produto > * {
+    width: 33%;
+}
+
+.comprador-pacotes-produtos-produto img {
+    border-radius: 20px;
+}
+
+.comprador-pacotes-produtos-produto-wrapper h1 {
+    color: #1E2544;
+    font-weight: bold;
+    margin: 0 !important;
+    font-size: 18px;
+}
+
+.comprador-pacotes-produtos-produto h2 {
+    margin: 0 !important;
+    font-size: 14px;
+    color: #838383;
+    text-align: center;
+}
+
+.comprador-pacotes-produtos-produto h2:first-of-type {
+    text-transform: capitalize;
+}
+
+.comprador-pacotes-produtos-produto-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,0 +1,354 @@
+body, main {
+  font-family: "Roboto";
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.default-btn {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.btn {
+  background-color: transparent !important;
+  border: none !important;
+  padding: 12px !important;
+  min-width: 122px !important;
+  border-radius: 4px !important;
+  font-size: 14px !important;
+  cursor: pointer !important;
+}
+
+.btn-primary {
+  background-color: white !important;
+  border: 1px solid #4C5DAA !important;
+  color: #4C5DAA !important;
+}
+
+.btn-secondary {
+  background-color: #4C5DAA !important;
+  border: 1px solid #4C5DAA !important;
+  color: white !important;
+}
+
+.btn-secondary-danger {
+  background-color: crimson !important;
+  border: 1px solid crimson !important;
+}
+
+.container-wrapper {
+  margin: 0 40px;
+}
+
+.services-container {
+  display: flex;
+  gap: 16px;
+  justify-content: space-around;
+  margin: 40px 0;
+  padding: 30px 0;
+  background-color: #08324D;
+  border-radius: 4px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 15px;
+  color: #D4C1DD;
+}
+
+.service img {
+  width: 58px;
+  height: 58px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: stretch;
+  margin: 40px 0;
+}
+
+.product-card {
+  width: 410px;
+}
+
+.product-card > .card-img-top {
+  height: 280px;
+}
+
+.product-card-performance > .card-body,
+.product-card-performance > .card-footer {
+  background-color: #430E36;
+}
+
+.product-card-performance > .card-body,
+.product-card-performance > .card-footer {
+  background-color: #A82489;
+}
+
+.product-card-performance > .card-body,
+.product-card-performance > .card-footer {
+  background-color: #CA7BB8;
+}
+
+.product-card-fotografia > .card-body,
+.product-card-fotografia > .card-footer {
+  background-color: #1E2544;
+}
+
+.product-card-fotografia > .card-body,
+.product-card-fotografia > .card-footer {
+  background-color: #4C5DAA;
+}
+
+.product-card-fotografia > .card-body,
+.product-card-fotografia > .card-footer {
+  background-color: #818DC3;
+}
+
+.product-card-ferramenta > .card-body,
+.product-card-ferramenta > .card-footer {
+  background-color: #08324D;
+}
+
+.product-card-ferramenta > .card-body,
+.product-card-ferramenta > .card-footer {
+  background-color: #167FC1;
+}
+
+.product-card-ferramenta > .card-body,
+.product-card-ferramenta > .card-footer {
+  background-color: #4498CD;
+}
+
+
+.product-card-title {
+  font-weight: bold !important;
+  color: #FFF !important;
+  font-size: 32px !important;
+}
+
+.products .card-footer > .btn {
+  width: 100% !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  color: #2D1439 !important;
+}
+
+.product-card-subtitle {
+  color: #FFF !important;
+  font-size: 16px !important;
+}
+
+.product-card-text {
+  color: #FFF !important;
+  font-size: 20px !important; 
+  margin: 40px 0 !important;
+}
+
+.products .card-footer {
+  padding: 24px;
+  border: none !important;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0;;
+}
+
+.form-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #4C5DAA;
+}
+
+.login-modal .modal-content {
+  width: 650px;
+  padding: 20px;
+}
+
+.login-modal .modal-title {
+  color: #4C5DAA;
+  font-size: 48px;
+  text-align: center;
+  width: 100%;
+}
+
+.login-modal .container:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-modal .container > img {
+  height: 116px;
+  text-align: center;
+}
+
+.login-modal .group-btns .col {
+  margin: 5px 0;
+}
+
+.form-container {
+  padding: 0 !important;
+}
+
+.form-container .row {
+  margin: 30px 0;
+}
+
+.form-container > .row .col {
+  padding: 0;
+  flex: none;
+}
+
+.form-container .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-container > .form-container-roles >* {
+  width: auto;
+}
+
+.tab-links {
+  display: flex;
+  gap: 60px;
+  border-bottom: 2px solid #CCCCCC;
+  margin: 30px 0;
+}
+
+.tab-link {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  margin: 0;
+  margin-top: 1px;
+  font-weight: bold;
+  padding: 15px 0;
+  color: #666666;
+  font-size: 18px;
+}
+
+.tab-link-active {
+  color: #1E2544;
+}
+
+.tab-link::before {
+  transition: 300ms;
+  height: 3px;
+  content: "";
+  position: absolute;
+  background-color: #A984BC;
+}
+
+.tab-link-ltr::before {
+  width: 0%;
+  bottom: -1px;
+}
+
+.tab-link-ltr:hover::before {
+  width: 100%;
+}
+
+.tab-link-active::before {
+  width: 100%;
+  height: 3px;
+  content: "";
+  position: absolute;
+  background-color: #A984BC;
+}
+
+.category-title-1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #A82489;
+}
+
+.category-title-2 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #4C5DAA;
+}
+
+.category-title-3 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #167FC1;
+}
+
+.edit-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.modal-dialog-confirmation .modal-content {
+  padding: 24px;
+}
+
+.search-container {
+  display: inline-flex;
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  height: 40px;
+}
+
+.search-container .search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #888;
+  cursor: pointer;
+}
+
+.search-container input {
+  text-align: left;
+  padding-left: 40px;
+  border-color: #E5BDD9;
+  color: #A82489;
+}
+
+.search-container input:focus {
+  outline: none;
+  border-color: #E5BDD9;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #A82489;
+}
+
+.search-container input::placeholder {
+  color: #A82489
+}
+
+.search-container svg {
+  fill: #E5BDD9;
+}
+
+.filtros-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.filtros-chips button {
+  background-color: white;
+  border: 1px solid #1E2544;
+  border-radius: 20px;
+  padding: 8px 16px;
+}
+
+.filtros-chips .selected {
+  background-color: #1E2544;
+  color: white;
+}

@@ -1,0 +1,272 @@
+.admin-pages-container {
+	margin: 30px 0;
+}
+
+.admin-dashboard-resume-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.admin-vendedores-resume-cards {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.admin-vendedores-resume-cards .resume-card-wrapper {
+    flex: 1;
+}
+
+.admin-graficos-wrapper {
+    margin: 30px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.admin-graficos-col-1 {
+    flex: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.admin-graficos-col-2 {
+    flex: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.admin-grafico-vendas-wrapper {
+    height: 635px;
+    background-color: #E7F6FB;
+    border-radius: 20px;
+    padding: 32px;
+}
+
+.admin-grafico-vendas-wrapper h1 {
+    font-size: 20px;
+    color: #1E2544;
+    font-weight: 600;
+}
+
+.admin-top-vendas {
+    background-color: #FFEBF8;
+    border-radius: 20px;
+    padding: 28px;
+}
+
+.admin-top-vendas h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.admin-top-vendas table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.admin-top-vendas table thead tr th {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7090A7;
+}
+
+.admin-top-vendas table thead tr {
+    border-bottom: 1px solid #D9E8F2;
+}
+
+.admin-top-vendas table tbody tr:not(:last-of-type) {
+    border-bottom: 1px solid #D9E8F2;
+}
+
+.admin-top-vendas table tbody tr td {
+    color: #444A6D;
+}
+
+.admin-top-vendas table tr {
+    height: 60px;
+}
+
+.admin-top-vendas-preco-1 {
+    background-color: #F0F9FF;
+    border: 2px solid #0095FF;
+    color: #0095FF;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+.admin-top-vendas-preco-2 {
+    background-color: #F0F9FF;
+    border: 2px solid #00E58F;
+    color: #00E58F;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+.admin-top-vendas-preco-3 {
+    background-color: #F0F9FF;
+    border: 2px solid #884DFF;
+    color: #884DFF;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+.admin-produtos-por-categoria {
+    background-color: #E7F6FB;
+    padding: 28px;
+    border-radius: 20px;
+}
+
+.admin-produtos-por-categoria h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.admin-produtos-por-categoria-chart-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    height: 200px;
+    align-items: center;
+}
+
+.admin-produtos-por-categoria-chart-wrapper div {
+    flex: 1;
+}
+
+.admin-produtos-por-categoria-chart-wrapper div:nth-of-type(1) {
+    align-self: baseline;
+}
+
+.admin-produtos-por-categoria-list-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.admin-produtos-por-categoria-list-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.admin-produtos-por-categoria-list-item-dot-performance {
+    width: 10px;
+    height: 10px;
+    background-color: #F38CDB;
+    border-radius: 99999px;
+}
+
+.admin-produtos-por-categoria-list-item-dot-fotografia {
+    width: 10px;
+    height: 10px;
+    background-color: #C3CEFF;
+    border-radius: 99999px;
+}
+
+.admin-produtos-por-categoria-list-item-dot-ferramentas {
+    width: 10px;
+    height: 10px;
+    background-color: #41B3FB;
+    border-radius: 99999px;
+}
+
+.admin-produtos-por-categoria-list-item-text {
+    color: #1E2544;
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.admin-dashboard-compras-recentes, .admin-dashboard-compras-recentes table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.admin-dashboard-compras-recentes h1 {
+    font-size: 20px;
+    color: #1E2544;
+    font-weight: 600;
+}
+
+.admin-dashboard-compras-recentes table thead tr th {
+    background-color: #FFEBF8;
+    color: #1E2544;
+    font-weight: 700;
+}
+
+.admin-dashboard-compras-recentes table thead tr th:first-of-type {
+    padding: 0 25px;
+    border-top-left-radius: 22px;
+}
+
+.admin-dashboard-compras-recentes table thead tr th:last-of-type {
+    border-top-right-radius: 22px;
+}
+
+.admin-dashboard-compras-recentes table tbody tr td {
+    font-size: 14px;
+    background-color: #FAFAFA;
+}
+
+.admin-dashboard-compras-recentes table tbody tr td:first-of-type {
+    font-weight: 600;
+    padding: 0 25px;
+}
+
+.admin-dashboard-compras-recentes table tbody tr:last-of-type td:first-of-type {
+    border-bottom-left-radius: 22px;
+}
+
+.admin-dashboard-compras-recentes table tbody tr:last-of-type td:last-of-type {
+    border-bottom-right-radius: 22px;
+}
+
+.admin-dashboard-compras-recentes table thead tr, .admin-dashboard-compras-recentes table tbody tr {
+    height: 60px;
+}
+
+.admin-dashboard-compras-recentes .star-rating {
+    line-height: normal;
+    margin-bottom: 4px;
+}
+
+.admin-dashboard-compras-recentes .star-rating svg {
+    width: 16px;
+    height: 16px;
+}
+
+.admin-compradores-table-wrapper-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.admin-compradores-table-wrapper-header h1 {
+    font-size: 20px;
+    color: #1E2544;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+
+/* .admin-compradores-table tbody tr:hover {
+    cursor: pointer;
+} */
+
+.table-col-estado {
+    padding: 4px 16px;
+    border-radius: 99px;
+    font-weight: 700;
+}
+
+.table-col-estado-ativo {
+    background-color: #D0EDF8;
+}
+
+.table-col-estado-desativado {
+    background-color: #E5BDD9;
+}

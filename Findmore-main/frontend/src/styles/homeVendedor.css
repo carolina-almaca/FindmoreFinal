@@ -1,0 +1,184 @@
+.home-vendedor .container-wrapper {
+    flex: 1;
+}
+
+.home-vendedor .row-actions {
+    text-align: end;
+}
+
+.home-vendedor .row-actions button {
+    font-size: 24px !important;
+    font-weight: 500;
+}
+
+.page-title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.page-title h1 {
+    text-transform: uppercase;
+    color: #4C5DAA;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+.page-title hr {
+    color: #713290;
+}
+
+.sell-container-img > img {
+    width: 470px;
+}
+
+.sell-container {
+    display: flex;
+    gap: 50px;
+}
+
+.sell-container {
+    margin-bottom: 60px;
+}
+
+.sell-container .sell-container-content {
+    flex: 1;
+}
+
+.sell-container .sell-container-content-title {
+    display: flex;
+    justify-content: space-between;
+    color: #713290;
+    font-size: 52px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.sell-container-content-desc h1 {
+    font-size: 20px;
+    color: #713290;
+}
+
+.sell-container-content-desc h2 {
+    font-size: 20px;
+    color: #A984BC;
+}
+
+.home-vendedor .row-actions {
+    margin: 60px 0;
+}
+
+.home-vendedor .vender-artigo-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.home-vendedor .vender-artigo-title > h1 {
+    text-transform: uppercase;
+    font-size: 26px;
+    color: #4C5DAA;
+    font-weight: 800;
+    margin: 0;
+}
+
+.home-vendedor .vender-artigo-title button {
+    background-color: #4C5DAA;
+    color: #FFF;
+    border: none;
+    padding: 8px 36px;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+.carousel-produtos-wrapper h1 {
+    color: #1E2544;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.carousel-card-produto {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px;
+    border-radius: 22px;
+}
+
+.carousel-card-produto > img {
+    border-radius: 20px;
+}
+
+.carousel-card-produto-section {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.carousel-card-produto-section h1 {
+    color: #1E2544;
+    font-weight: 800;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 0 !important;
+    font-size: 16px;
+}
+
+.carousel-card-produto-section span {
+    font-size: 14px;
+    opacity: .5;
+}
+
+.carousel-card-produto-descricao {
+    color: #1E2544;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 0 !important;
+}
+
+.carousel-card-produto-minidescricao {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.carousel-card-produto-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.carousel-card-produto-footer h1 {
+    font-weight: 800;
+    font-size: 20px;
+    margin: 0;
+}
+
+.carousel-card-produto-footer button {
+    background-color: transparent;
+    border: none;
+}
+
+.versao-modal .form-input {
+    margin: 0;
+    flex: 1;
+}
+
+.versao-modal button {
+    padding: 7px !important;
+}
+
+.versao-modal-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+}
+
+.versao-modal .modal-title {
+    color: #1E2544;
+    font-weight: bold;
+}

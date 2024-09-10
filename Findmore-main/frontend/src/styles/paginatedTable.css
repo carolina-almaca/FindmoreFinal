@@ -1,0 +1,71 @@
+.paginated-table-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.paginated-table-wrapper table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.paginated-table-wrapper table thead th {
+    background-color: #FFEBF8;
+    color: #1E2544;
+    font-weight: 700;
+}
+
+.paginated-table-wrapper table thead tr th:first-of-type {
+    padding: 0 25px;
+    border-top-left-radius: 22px;
+}
+
+.paginated-table-wrapper table thead tr th:last-of-type {
+    border-top-right-radius: 22px;
+}
+
+.paginated-table-wrapper table tbody tr td {
+    font-size: 14px;
+    background-color: #FAFAFA;
+}
+
+.paginated-table-wrapper table tbody tr td:first-of-type {
+    font-weight: 600;
+    padding: 0 25px;
+}
+
+.paginated-table-wrapper table tbody tr:last-of-type td:first-of-type {
+    border-bottom-left-radius: 22px;
+}
+
+.paginated-table-wrapper table tbody tr:last-of-type td:last-of-type {
+    border-bottom-right-radius: 22px;
+}
+
+.paginated-table-wrapper table thead tr, .paginated-table-wrapper table tbody tr {
+    height: 60px;
+}
+
+.paginated-table-wrapper .pagination {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+.paginated-table-wrapper .pagination button {
+    background-color: #2D1439;
+    color: #FFF;
+    border-radius: 22px;
+    padding: 2px 16px;
+    border: none;
+}
+
+.paginated-table-wrapper .pagination-btn-disabled {
+    opacity: .5;
+}
+
+.paginated-table-wrapper .bold {
+    font-weight: 700;
+}

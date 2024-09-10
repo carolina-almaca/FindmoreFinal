@@ -1,0 +1,82 @@
+.admin-section {
+    margin: 50px 0;
+}
+
+.page-title h1 {
+    text-transform: uppercase;
+    color: #A82489;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+.page-title hr {
+    color: #713290;
+}
+
+.section-title {
+    font-weight: bolder;
+    font-size: 52px;
+    color: #A82489;
+}
+
+.produto-container {
+    display: flex;
+    gap: 30px;
+    background-color: #CA7BB8;
+    padding: 16px;
+    border-radius: 12px;
+    color: white;
+}
+
+.produto-container > img {
+    width: 116px;
+    height: 118px;
+}
+
+.produto-container-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.produto-container-content-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.produto-container-content-actions img {
+    width: 30px;
+}
+
+.row {
+    gap: 30px;
+}
+
+.row .col-md-2 {
+    min-width: 300px;
+}
+
+.perfil-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: #B8E2F7;
+    padding: 16px;
+    border-radius: 12px;
+    color: #08324D;
+}
+
+.col-perfil {
+    text-align: center;
+    width: 200px;
+}
+
+.col-perfil .btn-secondary {
+    margin-top: 15px;
+    padding: 6px 12px;
+}
+
+.perfil-container > img {
+    width: 60px;
+}
